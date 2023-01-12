@@ -1,0 +1,28 @@
+{
+  "name": "mafiaboybot",
+  "version": "1.0.0",
+  "description": "Discord Bot made with NodeJS to implements simples commands like today's dollar value, good morning, ...",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroBSanchez/mafiaboybot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroBSanchez/mafiaboybot/issues"
+  },
+  "homepage": "https://github.com/PedroBSanchez/mafiaboybot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
