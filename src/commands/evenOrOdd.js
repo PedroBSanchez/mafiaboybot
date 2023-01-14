@@ -35,14 +35,14 @@ module.exports = {
     let msg = "";
     if (userPar && even) {
       //Usuário ganhou com par
-      msg = `You Win (Even)  😡\nYours: ${userValue}\nBot: ${botValue}\nResult: ${soma}`;
+      msg = `You Win (**Even**)  😡\nYours: **${userValue}**\nBot: **${botValue}**\nResult: **${soma}**`;
     } else if (!userPar && !even) {
       //Usuário ganhou com ímpar
-      msg = `You Win (Odd)  😡\nYours: ${userValue}\nBot: ${botValue}\nResult: ${soma}`;
+      msg = `You Win (**Odd**)  😡\nYours: **${userValue}**\nBot: **${botValue}**\nResult: **${soma}**`;
     } else {
-      msg = `MafiaBoy Wins (${
+      msg = `MafiaBoy Wins **(${
         userPar ? "Odd" : "Even"
-      })  😜\nYours: ${userValue}\nBot: ${botValue}\nResult: ${soma}`;
+      })**  😜\nYours: **${userValue}**\nBot: **${botValue}**\nResult: **${soma}**`;
     }
 
     await interaction.reply(msg);

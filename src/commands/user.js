@@ -4,6 +4,11 @@ module.exports = {
   data: new SlashCommandBuilder().setName("user").setDescription("User Test"),
   async execute(interaction) {
     //code
-    await interaction.reply("User test liro liro");
+
+    await interaction.reply(
+      `User: **${
+        interaction.user.username
+      }**\nCreated At: **${interaction.user.createdAt.toLocaleDateString()}**`
+    );
   },
 };
