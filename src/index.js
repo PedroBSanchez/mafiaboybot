@@ -44,6 +44,8 @@ client.on("ready", () => {
   });
 });
 
+require("./deploy-commands.js");
+
 client.on("interactionCreate", async (interaction) => {
   if (interaction.type === InteractionType.ApplicationCommand) {
     const command = client.commands.get(interaction.commandName);
