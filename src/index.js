@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 
-const fs = require("node:fs");
-const path = require("node:path");
+const fs = require("fs");
+const path = require("path");
 dotenv.config();
 
 const {
