@@ -7,7 +7,7 @@ module.exports = {
   async execute(interaction) {
     //code
 
-    //Buscar api para retoranr frase de bom dia e falar sobre oq é o dia
+    console.log(interaction.guild.members.users);
 
     await interaction.reply("In progress...");
   },

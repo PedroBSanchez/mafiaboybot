@@ -37,6 +37,6 @@ module.exports = {
         iconURL: "https://i.imgur.com/AfFp7pu.png",
       });
 
-    await interaction.reply({ embeds: [exampleEmbed] });
+    await interaction.reply("In progress");
   },
 };
